@@ -1,10 +1,10 @@
-# Install & Setup [WordPress](http://wordpress.org) [![Gittip](https://raw.github.com/gittip/www.gittip.com/master/img-src/gittip-logo-32.png)]
+# Install & Setup [WordPress](http://wordpress.org) 
 
 Author: [Anas Labzar]
 
 ##  How To Install WordPress 
 
-Synopsis
+## Synopsis
 
 I was looking around for a useful script to speed up the setting-up process for a WordPress site.
 
