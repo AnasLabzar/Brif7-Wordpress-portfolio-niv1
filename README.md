@@ -19,3 +19,16 @@ curl -O https://raw.githubusercontent.com/jasewarner/wordpress-installer/master/
 Then run the script: sh ./wordpress.sh
 
 It will download the latest version of WordPress, along with the latest version of all the plugins listed in the shell script and install them to the current directory, as well as the boilerplate theme.
+
+
+## Plugins
+The script installs the following WordPress plugins:
+
+Advanced Custom Fields †
+ACF Content Analysis for Yoast SEO
+Contact Form 7
+Flamingo
+W3 Total Cache
+Wordfence Security
+Yoast SEO
+† I highly recommend purchasing the Pro version!
