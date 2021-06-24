@@ -47,8 +47,8 @@ Plugin List
 ## Plugins
 The script installs the following WordPress plugins:
 
-Advanced Custom Fields †
-ACF Content Analysis for Yoast SEO
+Advanced Custom Fields 
+† ACF Content Analysis for Yoast SEO
 Contact Form 7
 Flamingo
 W3 Total Cache
