@@ -1,6 +1,6 @@
 # Install & Setup [WordPress](http://wordpress.org) 
 
-Author: [Anas Labzar]
+Author: [Anas Labzar](https://github.com/AnasLabzar)
 
 ##  How To Install WordPress 
 
