@@ -12,13 +12,20 @@ After looking around, I found a couple of great scripts by [@snaptortoise](https
 
 
 # Installation
-cd into the project root and run the following in command-line:
+si vous êtes à l’aise avec ce type d’installation, voici la version rapide des instructions. Les instructions détaillées se trouvent à la suite.
 
-curl -O https://raw.githubusercontent.com/jasewarner/wordpress-installer/master/wordpress.sh
-
-Then run the script: sh ./wordpress.sh
-
-It will download the latest version of WordPress, along with the latest version of all the plugins listed in the shell script and install them to the current directory, as well as the boilerplate theme.
+Téléchargez et décompressez l’archive WordPress ;
+Sur votre serveur, créez une base de données ainsi qu’un utilisateur MySQL ou MariaDB qui a tous les privilèges pour y accéder et la modifier ;
+Facultatif : renommez le fichier wp-config-sample.php en wp-config.php, puis modifiez ce fichier pour y ajouter vos informations de base de données.
+Note : vous pouvez sauter cette étape si besoin, le programme d’installation créera le fichier wp-config.php pour vous s’il n’existe pas ;
+Téléversez les fichiers WordPress (à l’exception du répertoire WordPress lui même) à l’emplacement voulu sur votre serveur :
+Pour installer WordPress à la racine de votre nom de domaine (par exemple example.com), placez les fichiers dans le répertoire racine de votre serveur ;
+Pour installer WordPress dans son propre répertoire (par exemple example.com/blog/), créez le répertoire blog sur le votre serveur et placez-y les fichiers ;
+Note : si votre client FTP a une option pour convertir les noms de fichier en minuscules, assurez-vous qu’elle est désactivée ;
+Accédez à l’URL où vous avez placé les fichiers WordPress pour lancer le programme d’installation :
+https://example.com si vous avez installé WordPress dans le répertoire racine ;
+https://example.com/blog/ si vous avez installé WordPress dans son propre répertoire ;
+C’est terminé ! WordPress devrait maintenant être installé.
 
 
 ## Plugins
