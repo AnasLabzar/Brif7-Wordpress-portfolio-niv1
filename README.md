@@ -12,9 +12,10 @@ After looking around, I found a couple of great scripts by [@snaptortoise](https
 
 
 # Installation
+
 si vous êtes à l’aise avec ce type d’installation, voici la version rapide des instructions. Les instructions détaillées se trouvent à la suite.
 
-Téléchargez et décompressez l’archive WordPress ;
+Téléchargez et décompressez l’archive ## WordPress ;
 Sur votre serveur, créez une base de données ainsi qu’un utilisateur MySQL ou MariaDB qui a tous les privilèges pour y accéder et la modifier ;
 Facultatif : renommez le fichier wp-config-sample.php en wp-config.php, puis modifiez ce fichier pour y ajouter vos informations de base de données.
 Note : vous pouvez sauter cette étape si besoin, le programme d’installation créera le fichier wp-config.php pour vous s’il n’existe pas ;
